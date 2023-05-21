@@ -9,15 +9,7 @@ const app = express();
 
 app.use(bodyParser.json())
 .use((req,res,next)=>{
-    res.setHeader('Acess-Control-Allow-Origin','*');
-    res.setHeader(
-      'Access-Control-Allow-Headers',
-      'Origin, X-Requested-With, Content-Type, Accept'
-    );
-    res.setHeader(
-      'Access-Control-Allow-Methods',
-      'GET, POST, PATCH, PUT, DELETE, OPTIONS'
-    );
+    res.setHeader('Acess-Control-Allow-Origin','*');   
     next();
 })
 .use('/', require('./routes/'))
