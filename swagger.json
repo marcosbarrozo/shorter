@@ -2,7 +2,7 @@
   "swagger": "2.0",
   "info": {
     "title": "Shorter API",
-    "description": "Temple API",
+    "description": "Shorter API",
     "version": "1.0.0"
   },
   "host": "shorter-rvta.onrender.com",

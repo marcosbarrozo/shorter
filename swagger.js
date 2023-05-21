@@ -2,8 +2,8 @@ const swaggerAutogen = require('swagger-autogen')()
 
 const doc = {
     info: {
-      title: 'My API',
-      description: 'Temple API'
+      title: 'Shorter API',
+      description: 'Shorter API'
     },
     host: 'shorter-rvta.onrender.com',
     schemes: ['https']
