@@ -5,7 +5,7 @@ const doc = {
       title: 'My API',
       description: 'Temple API'
     },
-    host: 'http://localhost:8080',
+    host: 'shorter-rvta.onrender.com',
     schemes: ['https']
   };
 
