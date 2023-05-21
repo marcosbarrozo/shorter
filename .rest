@@ -1,0 +1,18 @@
+###
+GET http://localhost:8080/users HTTP/1.1
+
+### 
+GET http://localhost:8080/users/6452c325b99412b2bc478e92 HTTP/1.1
+
+###
+POST http://localhost:8080/users HTTP/1.1
+Content-Type:  application/json
+
+{
+    "firstName":"Leiliane", 
+    "lastName":"Barrozo",
+    "email":"leiliane@test.com", 
+    "phone":"+550000000000", 
+    "birthday":"04/28/1993"
+}
+
